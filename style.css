@@ -1,1 +1,37 @@
 /* Start coding here */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100wh;
+    height: 100vh;
+    background-image: linear-gradient(45deg,hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.messagebox
+{
+width: 35vw;
+padding-top: 3%;
+padding-bottom: 3%;
+padding-left: 5%;
+padding-right: 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: hsla(0, 50%, 100%, 0.5);
+}
+
+.topic{
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+
+.content{
+    text-align: center;
+}
